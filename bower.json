@@ -1,0 +1,24 @@
+{
+  "name": "angular-util-services",
+  "version": "0.0.0",
+  "authors": [
+    "epayet <jakspinning@gmail.com>"
+  ],
+  "description": "This package contains a bunch of angular/bootstrap utils",
+  "main": "angular-util-services.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "angular-ui",
+    "restful"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
