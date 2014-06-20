@@ -17,13 +17,13 @@ angular.module("angular-util-services").factory('WaitingService', ['$modal',
             '<div class="progress progress-striped active">' +
                 '<div class="progress-bar" style="width: 100%;"></div>' +
             '</div> </div>',
-                controller : function($scope) {
+                controller : ["$scope", function($scope) {
                     self.scope = $scope;
                     $scope.message = message;
                     $scope.closeModal = function() {
                         $scope.$close();
                     }
-                }
+                }]
             });
         };
 
